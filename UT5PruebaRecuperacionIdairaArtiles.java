@@ -11,6 +11,30 @@ public class Ordenador {
     private String procesador;
     private String memoria;
     private String resolucionPantalla;
+
+    public String getProcesador() {
+        return procesador;
+    }
+
+    public void setProcesador(String procesador) {
+        this.procesador = procesador;
+    }
+
+    public String getMemoria() {
+        return memoria;
+    }
+
+    public void setMemoria(String memoria) {
+        this.memoria = memoria;
+    }
+
+    public String getResolucionPantalla() {
+        return resolucionPantalla;
+    }
+
+    public void setResolucionPantalla(String resolucionPantalla) {
+        this.resolucionPantalla = resolucionPantalla;
+    }
     
    
 }
