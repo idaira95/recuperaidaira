@@ -8,16 +8,16 @@ package ut5pruebarecuperacionidaira;
 public class Ordenador {
 
 
-    private String procesador;
+    private String cpu;
     private String memoria;
     private String resolucionPantalla;
 
     public String getProcesador() {
-        return procesador;
+        return cpu;
     }
 
     public void setProcesador(String procesador) {
-        this.procesador = procesador;
+        this.cpu = procesador;
     }
 
     public String getMemoria() {
